@@ -2648,6 +2648,8 @@ figcaption {
 }
 
 .container.portrait {
+  padding-top: 40px;
+  padding-bottom: 40px;
   background-image: url('../images/eric-spot.png');
   background-position: 100% 50%;
   background-size: auto;
@@ -5293,6 +5295,10 @@ figcaption {
     flex-direction: column;
   }
 
+  .container.portrait {
+    background-color: #ff4d6d;
+  }
+
   .top-bar {
     padding-right: 0px;
     padding-left: 0px;
@@ -5721,6 +5727,11 @@ figcaption {
   .mg-bottom0px-32px-mbl {
     margin-bottom: 32px;
   }
+
+  .paragraph-2 {
+    color: #0c0f0a;
+    font-weight: 400;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -6122,6 +6133,12 @@ figcaption {
 
   .mg-top-40px {
     margin-top: 32px;
+  }
+
+  .paragraph-2 {
+    padding: 10px;
+    background-color: #0c0f0a;
+    color: #fff;
   }
 }
 

@@ -2500,7 +2500,7 @@ figcaption {
   padding-bottom: 14px;
   grid-column-gap: 14px;
   border-color: #5ce202;
-  background-color: #5ce202;
+  background-color: #fdd017;
   color: #0c0f0a;
   font-weight: 500;
 }
@@ -2648,7 +2648,7 @@ figcaption {
 }
 
 .container.portrait {
-  background-image: url('../images/Eric-splatter.png');
+  background-image: url('../images/eric-spot.png');
   background-position: 100% 50%;
   background-size: auto;
   background-repeat: no-repeat;
@@ -3369,13 +3369,13 @@ figcaption {
 }
 
 .form-input:focus {
-  border-color: #5ce202;
+  border-color: #fdd017;
   box-shadow: 0 0 0 4px rgba(255, 217, 0, 0.1);
   color: #ecffdf;
 }
 
 .form-input.-wfp-focus {
-  border-color: #5ce202;
+  border-color: #fdd017;
   box-shadow: 0 0 0 4px rgba(255, 217, 0, 0.1);
   color: #ecffdf;
 }
@@ -3412,16 +3412,16 @@ figcaption {
 }
 
 .form-input.select:hover {
-  border-color: #5ce202;
+  border-color: #fdd017;
 }
 
 .form-input.select:active {
-  border-color: #5ce202;
+  border-color: #fdd017;
   box-shadow: 0 0 0 4px rgba(236, 255, 223, 0.18);
 }
 
 .form-input.select:focus {
-  border-color: #5ce202;
+  border-color: #fdd017;
   box-shadow: 0 0 0 4px rgba(236, 255, 223, 0.18);
 }
 
@@ -3446,21 +3446,21 @@ figcaption {
   border-color: #272727;
   border-radius: 0px;
   background-color: #0c0f0a;
-  color: #251600;
+  color: #fff;
   font-size: 15px;
   line-height: 25px;
 }
 
 .form-input.text-area:hover {
-  border-color: #5ce202;
+  border-color: #fdd017;
 }
 
 .form-input.text-area:active {
-  border-color: #5ce202;
+  border-color: #fdd017;
 }
 
 .form-input.text-area:focus {
-  border-color: #5ce202;
+  border-color: #fdd017;
 }
 
 .medici-form-field-wrapper {

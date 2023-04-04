@@ -2471,6 +2471,8 @@ figcaption {
   position: relative;
   display: inline-block;
   height: auto;
+  min-width: 100%;
+  margin-top: 20px;
   padding: 14px 40px;
   justify-content: center;
   align-items: center;
@@ -3160,8 +3162,9 @@ figcaption {
 .heading-h3 {
   margin-top: 0px;
   margin-bottom: 12px;
-  font-size: 24px;
+  font-size: 50px;
   line-height: 34px;
+  text-align: center;
 }
 
 .link-content-text {
@@ -4995,6 +4998,36 @@ figcaption {
   z-index: auto;
   align-self: flex-end;
   flex: 0 auto;
+}
+
+.container-2 {
+  max-width: 600px;
+}
+
+.form-block {
+  margin-top: 40px;
+  padding: 40px;
+  outline-color: #fdd017;
+  outline-offset: 0px;
+  outline-style: solid;
+  outline-width: 3px;
+}
+
+.text-block-2 {
+  margin-top: 20px;
+  color: #797979;
+  font-size: 18px;
+  text-align: center;
+}
+
+.field-label {
+  color: #fff;
+  font-size: 20px;
+}
+
+.field-label-2 {
+  color: #fff;
+  font-size: 20px;
 }
 
 @media screen and (min-width: 1280px) {
